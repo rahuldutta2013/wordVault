@@ -1,0 +1,76 @@
+.modal-container{
+    width: 60%;
+    position: relative;
+    height: 600px;
+    background: white;
+    top: 40px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.help-text{
+    display: inline-block;
+    width: 251px;
+    overflow: auto;
+    height: 447px;
+    margin-top: 11px;
+    margin-left: 10px;
+}
+
+.help-video{
+    top: 100px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.close-btn{
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    background: #069bf3;
+    color: white;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 25px;
+    border: 2px solid;
+}
+
+.close-btn:focus{
+    outline-color: black;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #069bf3;
+  border-radius: 10px;
+}
+
+.help-header {
+  height: 60px;
+  background: #1982e4;
+}
+
+.help-text-wrapper {
+  float: left;
+    padding: 20px;
+    border: 1px solid grey;
+    margin-left: 15px;
+    margin-top: 15px;
+}

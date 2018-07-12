@@ -1,0 +1,17 @@
+<section class="modal-container">
+  <div class="help-header">
+      <button #close (click)="emitClose()" class="close-btn">X</button>
+  </div>
+
+  <div class="help-text-wrapper">
+      <section (keydown.tab)="handleFocus()" tabindex="0" class="help-text">
+        <span [innerHTML]="helpText">
+        </span>
+      </section>
+  </div>
+
+  <section class="help-video">
+    <video [src]=helpVideoSrc preload="auto" autoplay></video>
+  </section>
+
+</section>
