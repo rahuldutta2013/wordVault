@@ -38,13 +38,11 @@ ul{
 }
 
 .highlight-correct{
-
     border: 2px solid #048804 !important;
     color: #048804;
 }
 
 .highlight-incorrect{
-
     border: 2px solid #9e0606 !important;
     color: #9e0606;
 }

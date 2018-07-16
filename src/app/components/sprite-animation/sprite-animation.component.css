@@ -1,14 +1,14 @@
 .sprite{
-		
+    transform: scale(0.7);
     position: absolute;
     height: 418px;
     width: 516px;
     background: url(/assets/images/vault-sprite.png) no-repeat -1px 0;
-
+    top: -51px;
+    left: 0;
 }
 
 .reward{
-    
     position: absolute;
     top: 80px;
     height: 248px;
@@ -18,8 +18,15 @@
 
 @media screen and (max-width: 425px){
     .sprite{
-
         transform: scale(0.75);
         left: -43px;
     }
+}
+
+@media screen and (max-width: 1024px){
+  .reward[_ngcontent-c6] {
+    top: 70px;
+    height: 174px;
+    left: 170px;
+  }
 }
