@@ -1,5 +1,5 @@
 
-.help{
+.help {
     border: none;
     height: 30px;
     width: 30px;
@@ -10,11 +10,12 @@
     margin-right: 3px;
     cursor: pointer;
 }
-.help:hover{
+
+.help:hover {
     background-image: url('/assets/images/help-ic-hover.png');
 }
 
-.close{
+.close {
     border: none;
     height: 30px;
     width: 30px;
@@ -26,31 +27,33 @@
     cursor: pointer;
 }
 
-.close:hover{
+.close:hover {
     background-image: url('/assets/images/close-ic-hover.png');
 }
-.help-container{
+
+.help-container {
     position: absolute;
     right: 5px;
     margin-top: 15px;
 }
-.title{
+
+.title {
     display: inline-block;
     margin: 12px;
     color: #8a2b2b;
 }
 
-header{
+header {
   background-image: url(https://addons.cdn.mozilla.net/static/img/docs/themes/header.jpg);
   color: white;
   border-bottom: 4px solid #8a2b2b;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
-app-help{
+app-help {
   z-index: 2;
   position: fixed;
   background: rgba(0, 0, 0, 0.5);
